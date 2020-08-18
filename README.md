@@ -19,8 +19,7 @@ c. Repeat steps (a) and (b) 500 times, and print the average error for each k an
 
 ```
   <p>
- Which parameters of k,p are the best? Do you see overfitting? Hand in code, printout,
-and answers to these two questions.
+ Which parameters of k,p are the best? Do you see overfitting?
  </p>
 
 
