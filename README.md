@@ -51,10 +51,6 @@ https://www.geeksforgeeks.org/k-nearest-neighbours/ .<br>
 And from what is learned in class
 </p>
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
 
 2: 
 ```
