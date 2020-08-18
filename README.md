@@ -41,3 +41,36 @@ c. Repeat steps (a) and (b) 500 times, and print the average error for each k an
  </p>
  
  
+ <h6> Solution:
+</h6>
+
+2: 
+```
+
+solution:
+We saw the following sentences:
+   ||u-v||(1-ε)≤||f(u)-f(v)||≤||u-v||(1+ε)
+   ||u-v||²(1-ε)≤||f(u)-f(v)||²≤||u-v||²(1+ε)
+Also given:
+   ||u-v||²=||v||²-2vu+||u||²
+Because the normalized vectors exist 1 = ||u||, ||v||
+That is:
+   ||u-v||²=2-2vu
+For each vector v add the vector product of minus 1 (i.e. add -||v||)
+So it turns out that:
+   ||u-(-v)||=||u+v||
+Therefore:
+   ||u+v||²(1-ε)≤||f(u)+f(v)||²≤||u+v||²(1+ε),
+   ||u+v||²= 2+2uv
+Note that:
+   ||f(u)+f(v)||²-||f(u)-f(v)||²≤||u+v||²(1+ε) -||u-v||²(1-ε)  
+   ||u+v||²(1-ε) -||u-v||²(1+ε)≤||f(u)+f(v)||²-||f(u)-f(v)||²
+And also:
+   ||f(u)+f(v)||² - ||f(u)-f(v)||²= 4f(u)f(v)
+   ||u+v||²(1-ε) -||u-v||²(1+ε)=4vu-4ε
+   ||u+v||²(1+ε) -||u-v||²(1-ε)=4uv+4ε
+   
+We will summarize them together and get:
+4vu-4ε ≤4f(v)f(v)≤ 4uv+4ε  → vu-ε≤f(v)f(v)≤uv+ε
+
+```
