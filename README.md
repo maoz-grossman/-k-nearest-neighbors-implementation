@@ -46,6 +46,13 @@ c. Repeat steps (a) and (b) 500 times, and print the average error for each k an
  <h6> Solution:
 </h6>
 
+<p>
+The implementation of the algorithm can be found in the codes above.
+The code is based on the code from the GeeksforGeeks website
+[Knn_GeeksForGeeks]("https://www.geeksforgeeks.org/k-nearest-neighbours/")
+ And from what is learned in class
+</p>
+
 2: 
 ```
 
