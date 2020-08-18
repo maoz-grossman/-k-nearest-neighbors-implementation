@@ -40,6 +40,8 @@ c. Repeat steps (a) and (b) 500 times, and print the average error for each k an
  
  </p>
  
+ ---
+ 
  
  <h6> Solution:
 </h6>
