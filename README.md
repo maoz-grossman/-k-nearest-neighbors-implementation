@@ -37,22 +37,20 @@ c. Repeat steps (a) and (b) 500 times, and print the average error for each k an
  Hints: Since the JL-transform is linear, ǁf(v-w)ǁ = ǁf(v)-f(w)ǁ.<br>
  Also,  ǁv-wǁ² = ǁvǁ² – 2v·w + ǁwǁ² .
  
- 
+ <br>
  </p>
  
  ---
  
  
- 
-
 <p>
- <br>
  <h6> Solution:</h6>
 The implementation of the algorithm can be found in the codes above.
 The code is based on the code from the GeeksforGeeks website:<br>
 https://www.geeksforgeeks.org/k-nearest-neighbours/ .<br>
 And from what is learned in class
 </p>
+
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
@@ -88,3 +86,6 @@ We will summarize them together and get:
 4vu-4ε ≤4f(v)f(v)≤ 4uv+4ε  → vu-ε≤f(v)f(v)≤uv+ε
 
 ```
+<p>
+ 
+ </p>
