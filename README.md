@@ -10,11 +10,20 @@
 <h6>Implement k-nearest neighbor on the HC Temperature data set:</h6>
  
  ```python
-a. Sample 65 training points from the set. The remaining points are the testset.
+a. Sample 65 training points from the set. 
+   The remaining points are the testset.
 b. For each of k=1,3,5,7,9 and p=1,2,∞, evaluate the k-NN classifier on the test set, under the lp distance.
   #(The base set of the classifier is the training set.)
-  Compute the classifier error on the test set.
+   Compute the classifier error on the test set.
 c. Repeat steps (a) and (b) 500 times, and print the average error for each k and p. 
 
 ```
-  
+  <p>
+ Which parameters of k,p are the best? Do you see overfitting? Hand in code, printout,
+and answers to these two questions.
+ </p>
+
+
+<p>
+ <h6>Prove that the JL-transform preserves dot products up to an additive error of ±ɛ:</h6>
+ </p>
